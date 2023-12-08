@@ -7,8 +7,10 @@ function Sidebar() {
       <h2 className="text-2xl font-semibold mb-4">Chats</h2>
       {/* <!-- List of chats --> */}
       <ul>
-        <li className="py-2 hover:bg-gray-700 cursor-pointer">Chat 1</li>
-        <li className="py-2 hover:bg-gray-700 cursor-pointer">Sofek</li>
+        <li className="py-2 hover:bg-gray-700 cursor-pointer">
+          Under Construction 🚧
+        </li>
+        {/* <li className="py-2 hover:bg-gray-700 cursor-pointer">Sofek</li> */}
         {/* <!-- Add more chats as needed --> */}
       </ul>
     </div>
