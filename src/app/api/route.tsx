@@ -18,5 +18,3 @@ export async function POST(req: Request, res: NextResponse) {
 
   return NextResponse.json({ output: theResponse }, { status: 200 });
 }
-
-export default POST;
