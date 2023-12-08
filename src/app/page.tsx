@@ -1,10 +1,10 @@
-import Image from "next/image";
+import Sidebar from "../components/Sidebar";
 
 export default function Home() {
   return (
     <main className="flex flex-col justify-between w-full">
       <div className="flex h-screen">
-        {/* <!-- Sidebar --> */}
+        <Sidebar />
 
         {/* <!-- Chat Area --> */}
         <div className="flex-1 flex flex-col overflow-hidden">
